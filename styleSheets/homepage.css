@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +7,11 @@
 }
 
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(/Metropolis/Metropolis/OTF/Metropolis1920-Regular.otf);
-  }
+
 
 body{
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 
 }
 ul li{
