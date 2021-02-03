@@ -58,10 +58,10 @@ ul li{
 }
 
 .left-logIn{
-    height: 350px;
+    height: 400px;
     width: 100%;
     border-radius: 5px;
-    padding: 100px 0;
+    padding: 100px 20px;
     background-color: #fff;
 
 }
@@ -70,19 +70,52 @@ ul li{
     font-weight: 800;
 }
 
+.infoText-left p {
+    color: #808080;
+}
+
 .btn-left-login{
     padding: 30px 0;
 }
 
+.logIn-btn{
+    padding: 10px 145px;
+    border: 1px solid #ea144e;
+    color: #ea144e;
+}
+
+
+.logIn-btn:hover{
+    text-decoration: none;
+}
+
 .right-logIn{
-    height: 450px;
+    height: 500px;
     width: 100%;
     border-radius: 5px;
     background-color: #fff;
-    margin-top: -61px;
+    margin-top: -55px;
     margin-left: -30px;
+    padding: 54px 30px;
 }
 
+.right-heading h3{
+    font-weight: 600;
+    color: #3f3f3f;
+  
+}
+
+.login-form input {
+   border-style: none;
+   border-bottom: 1px solid #cecece;
+   border-radius: 0px;
+   padding: 5px;
+}
+
+.login-form ::placeholder {
+    font-size: 14px;
+    fo
+}
 
 
 
