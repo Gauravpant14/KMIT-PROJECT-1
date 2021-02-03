@@ -106,16 +106,41 @@ ul li{
 }
 
 .login-form input {
-   border-style: none;
-   border-bottom: 1px solid #cecece;
+   border-style: non;
+   border: 1px solid #cecece;
    border-radius: 0px;
    padding: 5px;
 }
 
-.login-form ::placeholder {
+.label{
+    color:#3f3f3f;
     font-size: 14px;
-    fo
 }
+
+
+.main-form .btn{
+    padding: 8px 157px;
+    text-align: center;
+    background: linear-gradient(101deg, rgba(254,251,250,1) 0%, rgba(229,95,28,1) 0%, rgba(232,36,76,1) 100%);
+    color: #fff;
+    border: 1px solid #ea144e;
+}
+
+.new-reg {
+    color:#3f3f3f;
+    padding: 20px 0px;
+}
+
+.new-reg span {
+    color: #ea144e;
+}
+
+.social-media-logIn ul li {
+    display: inline;
+    padding: 25px;
+    
+}
+
 
 
 
