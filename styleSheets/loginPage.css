@@ -141,7 +141,15 @@ ul li{
     
 }
 
-
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 90px 0 0 90px;
+    border-color: transparent transparent transparent #e4710d;
+    margin: 36px -20px;
+    
+  }
 
 
 /* footer css */
