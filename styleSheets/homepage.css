@@ -50,7 +50,7 @@ ul li{
     
 }
 .info-btns
-{display: flex;
+{   display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -59,7 +59,8 @@ ul li{
 .info-buttons{
     /* text-align: center;
     display: flex; */
-    padding: 10px;
+    padding: 5px;
+    
     /* justify-content: center;
     align-items: center; */
 }
@@ -67,18 +68,28 @@ ul li{
 
 .btn-group{
     padding: 15px 80px;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     color: #fff;
     
 
     
 }
+
+.info-btn1{
+    border: 2px solid #fff;
+    clip-path: polygon(0, 0, 100% 0, 87% 100%, 0% 100%);
+
+}
 .info-btn1:hover{
 text-decoration: none;
+
 }
 
 .info-btn2{
     background-color: #EA144E;
+    border: 2px solid #fff;
+    margin-left: -56px;
+    clip-path: polygon(18% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .info-btn2:hover{
