@@ -49,6 +49,10 @@ ul li{
     padding-top: 20px;
     
 }
+
+/* INFO_BTNS SECTION */
+
+
 .info-btns
 {   display: flex;
     align-items: center;
@@ -96,7 +100,9 @@ text-decoration: none;
    
     text-decoration: none;
 }
-    
+
+/* INFO_BTNS END HERE */
+
 /* content section start */
 
 .outerSection{
